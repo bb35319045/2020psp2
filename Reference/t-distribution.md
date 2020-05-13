@@ -13,20 +13,18 @@
 統計量<img src="/Reference/tex/62e0782b4c77a5b0b3c27bdce55e6ca2.svg?invert_in_darkmode&sanitize=true" align=middle width=86.04448874999999pt height=26.76175259999998pt/>が，<img src="/Reference/tex/691c3f56fb94d0e9aaa6ad24fd35a041.svg?invert_in_darkmode&sanitize=true" align=middle width=73.7556171pt height=26.76175259999998pt/>に従い，
 <img src="/Reference/tex/5b51bd2e6f329245d425b8002d7cf942.svg?invert_in_darkmode&sanitize=true" align=middle width=12.397274999999992pt height=22.465723500000017pt/>と<img src="/Reference/tex/84c95f91a742c9ceb460a83f9b5090bf.svg?invert_in_darkmode&sanitize=true" align=middle width=17.80826024999999pt height=22.465723500000017pt/>を用いて<img src="/Reference/tex/e6718aa5499c31af3ff15c3c594a7854.svg?invert_in_darkmode&sanitize=true" align=middle width=16.535428799999988pt height=26.76175259999998pt/>を相殺して消したものです．
 
-<p align="center"><img src="/Reference/tex/ec98ea0c8b1c8fa17e177da798f8a2cb.svg?invert_in_darkmode&sanitize=true" align=middle width=197.81096939999998pt height=49.14819195pt/></p>
-
-<p align="center"><img src="/Reference/tex/5986e7d1e7037eecec75ab46a4376788.svg?invert_in_darkmode&sanitize=true" align=middle width=264.13786574999995pt height=47.806078649999996pt/></p>
+<p align="center"><img src="/Reference/tex/e1fe9a43e027dda4cddd31c5c430b022.svg?invert_in_darkmode&sanitize=true" align=middle width=461.94883515pt height=56.84951415pt/></p>
 
 不偏分散<img src="/Reference/tex/8fd627482c3317950ad778517d544d4f.svg?invert_in_darkmode&sanitize=true" align=middle width=177.0201741pt height=32.256008400000006pt/>を使うと，<img src="/Reference/tex/84c95f91a742c9ceb460a83f9b5090bf.svg?invert_in_darkmode&sanitize=true" align=middle width=17.80826024999999pt height=22.465723500000017pt/>は，
 
 <p align="center"><img src="/Reference/tex/13ee34aafe8b40fd1defc91ccb714431.svg?invert_in_darkmode&sanitize=true" align=middle width=229.23583485pt height=35.77743345pt/></p>
 
 となり，<img src="/Reference/tex/5b51bd2e6f329245d425b8002d7cf942.svg?invert_in_darkmode&sanitize=true" align=middle width=12.397274999999992pt height=22.465723500000017pt/>を<img src="/Reference/tex/84c95f91a742c9ceb460a83f9b5090bf.svg?invert_in_darkmode&sanitize=true" align=middle width=17.80826024999999pt height=22.465723500000017pt/>の2乗根で割ると，<img src="/Reference/tex/e6718aa5499c31af3ff15c3c594a7854.svg?invert_in_darkmode&sanitize=true" align=middle width=16.535428799999988pt height=26.76175259999998pt/>が消えます．
-<p align="center"><img src="/Reference/tex/5dda453f840d74b7263745623fb34550.svg?invert_in_darkmode&sanitize=true" align=middle width=343.2814704pt height=67.45395359999999pt/></p>
+<p align="center"><img src="/Reference/tex/296fca80c98c225ff5d6815d5612f926.svg?invert_in_darkmode&sanitize=true" align=middle width=376.15823355pt height=67.45395359999999pt/></p>
 
 <img src="/Reference/tex/5b51bd2e6f329245d425b8002d7cf942.svg?invert_in_darkmode&sanitize=true" align=middle width=12.397274999999992pt height=22.465723500000017pt/>における<img src="/Reference/tex/e6718aa5499c31af3ff15c3c594a7854.svg?invert_in_darkmode&sanitize=true" align=middle width=16.535428799999988pt height=26.76175259999998pt/>を<img src="/Reference/tex/55ab6111c6bbe722ee25eb4469ce9c7a.svg?invert_in_darkmode&sanitize=true" align=middle width=15.96281939999999pt height=26.76175259999998pt/>に変えたものになると使い勝手がよさそうで，それを<img src="/Reference/tex/2f118ee06d05f3c2d98361d9c30e38ce.svg?invert_in_darkmode&sanitize=true" align=middle width=11.889314249999991pt height=22.465723500000017pt/>とします．
 
-<p align="center"><img src="/Reference/tex/52bc66e9a785b4030e1d71e297b79703.svg?invert_in_darkmode&sanitize=true" align=middle width=149.8896696pt height=50.79200279999999pt/></p>
+<p align="center"><img src="/Reference/tex/c163c5ec7dd63908cc7c118ff76a8ef2.svg?invert_in_darkmode&sanitize=true" align=middle width=193.4945562pt height=50.79200279999999pt/></p>
 
 ## 2群の平均の差の有無についての検定
 
