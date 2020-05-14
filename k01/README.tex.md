@@ -1,6 +1,6 @@
 # 課題1 レポート
 
-aa83988848 薗田光太郎
+bb35319045 松本聡浩
 
 ## 課題
 
@@ -43,10 +43,25 @@ $$u^2=\dfrac{1}{N-1}\sum_{i=1}^{N}\left(x_{i}-\bar{x}\right)^2=\dfrac{N}{N-1}s^2
 
 ## ソースコードの説明
 
-あいうえお
+6:平均を求める関数を定義
+7:2乗の平均を求める関数を定義
+8:分散を求める関数を定義
+10: グローバル関数　Nを宣言
+14:平均、2条の平均、分散を求めるためのdouble型を用意
+17:Nを0に初期化
+33:人数をカウント
+34~36:それぞれの関数を宣言
+46~49:printfでそれぞれの数値を表示
+56~59:平均を求めるための関数を実行
+61~65:2乗の平均を求めるための関数を実行
+67~71:分散を求めるための関数を実行
+
 
 ## 入出力結果
-
+sample averave: 173.888750
+sample variance: 25.361711
+universe average: 173.888750
+universe variance: 28.984813
 ```
 input the filename of sample:../sample/heights_male.csv
 the filename of sample: ../sample/heights_male.csv
