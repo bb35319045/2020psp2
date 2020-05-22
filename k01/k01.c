@@ -4,14 +4,13 @@
 #include <math.h>
 
 extern double ave_online(double val,double ave);
-extern double square_ave_online (double val,double square_ave);
-extern double var_online(double square_ave,double ave);
+extern double var_online(double val,double ave);
 
 int N;
     
 int main(void)
 {
-    double val,ave=0,square_ave=0,var;
+    double val,ave=0,var;
     char fname[FILENAME_MAX];
     char buf[256];
     N=0;
@@ -31,10 +30,9 @@ int main(void)
     while(fgets(buf,sizeof(buf),fp) != NULL){
         sscanf(buf,"%lf",&val);
         N++;
-        ave = ave_online (val,ave);
-        square_ave = square_ave_online (val,square_ave);
-        var=var_online(square_ave,ave);
-
+        
+        ave = ave_online(val,ave);
+        var = var_online(val,ave);
     }
         
     if(fclose(fp) == EOF){
@@ -43,10 +41,10 @@ int main(void)
     }
 
 
-    printf("sample averave: %lf\n",ave);
+    printf("sample  average: %lf\n",ave);
     printf("sample variance: %lf\n",var);
-    printf("universe average: %lf\n",ave);
-    printf("universe variance: %lf\n",var*N/(N-1));
+    printf("population  average: %lf\n",ave);
+    printf("population variance: %lf\n",var*N/(N-1));
     
     return 0;
 
@@ -58,14 +56,12 @@ double ave_online(double val,double ave){
    return ave;
 }
 
-double square_ave_online (double val,double square_ave){
-    
-    square_ave=(square_ave*(N-1)+(val*val))/N;
-    return  square_ave;
-}
-
-double var_online(double square_ave,double ave){
+double var_online(double val,double ave){
     double var;
+    static double square_ave = 0;
+    
+    square_ave = (square_ave*(N-1)+(val*val))/N;
+    
     var = square_ave - (ave*ave);
     return var;
 }
