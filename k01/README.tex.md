@@ -43,34 +43,37 @@ $$u^2=\dfrac{1}{N-1}\sum_{i=1}^{N}\left(x_{i}-\bar{x}\right)^2=\dfrac{N}{N-1}s^2
 
 ## ソースコードの説明
 
-6:平均を求める関数を定義
-7:2乗の平均を求める関数を定義
-8:分散を求める関数を定義
-10: グローバル関数　Nを宣言
-14:平均、2条の平均、分散を求めるためのdouble型を用意
-17:Nを0に初期化
-33:人数をカウント
-34~36:それぞれの関数を宣言
-46~49:printfでそれぞれの数値を表示
-56~59:平均を求めるための関数を実行
-61~65:2乗の平均を求めるための関数を実行
-67~71:分散を求めるための関数を実行
+- 6:平均を求める関数を定義
+- 7:2乗の平均を求める関数を定義
+- 8:分散を求める関数を定義
+- 10: グローバル関数　Nを宣言
+- 14:平均、2条の平均、分散を求めるためのdouble型を用意
+- 17:Nを0に初期化
+- 33:人数をカウント
+- 34~36:それぞれの関数を宣言
+- 46~49:printfでそれぞれの数値を表示
+- 56~59:平均を求めるための関数を実行
+- 61~65:2乗の平均を求めるための関数を実行
+- 67~71:分散を求めるための関数を実行
 
 
 ## 入出力結果
-sample averave: 173.888750
-sample variance: 25.361711
-universe average: 173.888750
-universe variance: 28.984813
+
 ```
-input the filename of sample:../sample/heights_male.csv
-the filename of sample: ../sample/heights_male.csv
-sample mean：
-sample variance：
-population mean (estimated)：
-population variance (estimated)：
+sample average: 173.888750
+sample variance: 25.361711
+population average: 173.888750
+population variance: 28.984813
 ```
 
 ## 修正履歴
 
-説明は「かきくけこ」だ！
+[comment #20200521]
+- 出力結果は合っています．
+- スペル間違い（Readme.tex.mdのほうは修正済）
+  - sample averave -> sample average
+- そんな呼称はない（Readme.tex.mdのほうは修正済）
+  - universe average -> population average
+  - 母集団は universe ではなく population
+- `square_ave_online`関数は，`ave_online`と全く同じです．新しく作るのではなく，使いまわしてください．
+
