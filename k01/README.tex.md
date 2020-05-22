@@ -75,3 +75,5 @@ population variance: 28.984813
   - 母集団は universe ではなく population
 - `square_ave_online`関数は，`ave_online`と全く同じです．新しく作るのではなく，使いまわしてください．
 
+[comment #20200522]
+- 課題１完了
