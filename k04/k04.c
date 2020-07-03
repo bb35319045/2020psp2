@@ -22,7 +22,9 @@ int main(void)
     
     int input_ID;
     int i;
-    
+    int u=0,t=0;
+    int counter=0;
+
     printf("```\n");
     printf("input the filename of sample height :");
     fgets(fname_height,sizeof(fname_height),stdin);
@@ -47,11 +49,21 @@ int main(void)
     printf("Which ID's data do you want? :");
     scanf("%d",&input_ID);
 
-    for(i=0;i<15;i++){
-         sscanf(buf_height,"%d, %lf",&x[i].gender,&x[i].height);
-         sscanf(buf_ID,"%d",&x[i].sample_ID);
-         
+    while(fgets(buf_height,sizeof(buf_height),fp_height) != NULL){
+        sscanf(buf_height,"%d, %lf",&x[u].gender,&x[u].height);
 
+        u++;
+    }
+    
+    while(fgets(buf_ID,sizeof(buf_ID),fp_ID) != NULL){
+        sscanf(buf_ID,"%d",&x[t+1].sample_ID);
+
+        t++;
+    }
+
+
+
+    for(i=0;i<15;i++){
          if(input_ID == x[i].sample_ID){
              printf ("ID : %d\n",x[i].sample_ID);
         
@@ -61,19 +73,18 @@ int main(void)
               else if(x[i].gender == 2){
                  printf ("gender : Female \n" );
                 }    
-               printf("height : %lf\n",x[i].height);
-               break;
-             
-           }
-        
-         else if(fgets(buf_ID,sizeof(buf_ID),fp_ID) == NULL){
-            printf("---\n");
-            printf("No data\n");
-            printf("```\n");
-        
-         }
+               printf("height : %.1lf\n",x[i].height);
+               counter++;
+        }  
+         
     }
     
+    if(counter == 0){
+        printf("---\n");
+        printf("No data\n");
+        printf("```\n");
+    }
+
     
     
     return 0;
