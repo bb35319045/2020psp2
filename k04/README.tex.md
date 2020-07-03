@@ -49,4 +49,7 @@ No data
 ```
 
 ## 修正履歴
-
+[comment #20200630]
+- while文を用いて先にデータを格納してしまい、出力をfor文で行う手法を取ってみてはいかがでしょうか。
+- while(fgets(buf_height,sizeof(buf_height),fp_height) != NULL){
+  //データの読み込みのプログラム}という風に書くといいでしょう。
