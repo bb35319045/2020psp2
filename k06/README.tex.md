@@ -17,6 +17,7 @@ bb35319045 松本聡浩
 
 ## 入出力結果
 
+```
 Number of male sample : 8
 Number of female sample : 6
 Male Ratio : 0.533333
@@ -36,7 +37,11 @@ Male Ratio : 0.533333
 0.022714
 0.044839
 Population Male Ratio (estimated) : 0.466667--0.600000
+```
 
 ## 修正履歴
 [comment #20200721]
 - 修正の指示、アドバイス等は特にありません。引き続き先生に提出をお願いします。
+
+[comment #20200722 sonoda]
+- もともとコードが書いてありましたが，コードの中身を読み取って，何をやっているか説明してみてください．
