@@ -30,6 +30,7 @@ num_femaleは女性の人数を表す
 
 ## 入出力結果
 
+```
 Number of male sample : 8
 Number of female sample : 6
 Male Ratio : 0.533333
@@ -49,10 +50,11 @@ Male Ratio : 0.533333
 0.022714
 0.044839
 Population Male Ratio (estimated) : 0.466667--0.600000
+```
 
 ## 修正履歴
 [comment #20200721]
 - 修正の指示、アドバイス等は特にありません。引き続き先生に提出をお願いします。
-[comment #20200720 sonoda]
-- 私のコードがそのまま挙がってましたか．．．すみません．
-- ソースコードでやっていることを理解して，ソースコードの説明をReadme.tex.mdに加えてください．
+
+[comment #20200728 sonoda]
+- 課題6の完了を確認しました．
